@@ -1,0 +1,57 @@
+//
+// Prefix header for all source files of the 'FashionShop' target in the 'FashionShop' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import <QuartzCore/QuartzCore.h>
+#import <AVFoundation/AVFoundation.h>
+#import "FSConfiguration.h"
+#import "FSAnalysis.h"
+
+#import "PSTCollectionView.h"
+#import "UIViewController+Loading.h"
+
+#import "FSConfiguration+Fonts.h"
+#import "FSConfiguration.h"
+#import "FSEventsConfig.h"
+#import "UIColor+RGB.h"
+#import "UIDevice+Extention.h"
+#import "FSBaseViewController.h"
+
+#define CUSTOM_APPEARANCE 0
+
+#endif
+
+
+
+
+
+#ifdef DEBUG
+#define DLog(format, ...) NSLog((@"[LINE: %d]%s: " format), __LINE__, __PRETTY_FUNCTION__, ## __VA_ARGS__)
+#else
+#define DLog(format, ...)
+#endif
+
+#define ALog(format, ...) NSLog((@"[LINE: %d]%s: " format), __LINE__, __PRETTY_FUNCTION__, ## __VA_ARGS__)
+
+#endif
