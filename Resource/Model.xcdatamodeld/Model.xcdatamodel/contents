@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12E55" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="FSCoreBrand" representedClassName="FSCoreBrand" syncable="YES">
+        <attribute name="descrip" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="homeSite" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="logo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FSCoreMyLetter" representedClassName="FSCoreMyLetter" syncable="YES">
+        <attribute name="createdate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="isauto" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isvoice" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="msg" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="fromuser" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="FSCoreUser" inverseName="letterfrom" inverseEntity="FSCoreUser" syncable="YES"/>
+        <relationship name="touser" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="FSCoreUser" inverseName="letterto" inverseEntity="FSCoreUser" syncable="YES"/>
+    </entity>
+    <entity name="FSCoreResource" representedClassName="FSCoreResource" syncable="YES">
+        <attribute name="domain" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="relativePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="width" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="FSCoreStore" representedClassName="FSCoreStore" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descrip" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="distance" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="lantit" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longit" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FSCoreTag" representedClassName="FSCoreTag" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sort" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="FSCoreUser" representedClassName="FSCoreUser" syncable="YES">
+        <attribute name="nickie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumnail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="userLevelId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="uToken" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="letterfrom" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="FSCoreMyLetter" inverseName="fromuser" inverseEntity="FSCoreMyLetter" syncable="YES"/>
+        <relationship name="letterto" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="FSCoreMyLetter" inverseName="touser" inverseEntity="FSCoreMyLetter" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FSCoreBrand" positionX="-63" positionY="-567" width="128" height="120"/>
+        <element name="FSCoreMyLetter" positionX="27" positionY="-189" width="128" height="148"/>
+        <element name="FSCoreResource" positionX="133" positionY="-360" width="128" height="135"/>
+        <element name="FSCoreStore" positionX="-45" positionY="-405" width="128" height="163"/>
+        <element name="FSCoreTag" positionX="124" positionY="-567" width="128" height="105"/>
+        <element name="FSCoreUser" positionX="250" positionY="-189" width="128" height="148"/>
+    </elements>
+</model>
