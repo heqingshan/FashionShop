@@ -9,19 +9,20 @@
 #import "FSStoreDetailCell.h"
 
 @implementation FSStoreDescCell
+@synthesize description;
 
 -(void)setDescData:(NSString *)descData
 {
     _descData = descData;
     
-    int height = [_descData sizeWithFont:ME_FONT(12) constrainedToSize:CGSizeMake(_description.frame.size.width, 10000) lineBreakMode:NSLineBreakByCharWrapping].height;
-    _cellHeight_Expand = _description.frame.origin.y + height + 10;
-    _cellHeight_Contract = _description.frame.origin.y;
-    CGRect _rect = _description.frame;
+    int height = [_descData sizeWithFont:ME_FONT(12) constrainedToSize:CGSizeMake(description.frame.size.width, 10000) lineBreakMode:NSLineBreakByCharWrapping].height;
+    _cellHeight_Expand = description.frame.origin.y + height + 10;
+    _cellHeight_Contract = description.frame.origin.y;
+    CGRect _rect = description.frame;
     _rect.size.height = height;
-    _description.frame = _rect;
-    _description.text = descData;
-    _description.font = ME_FONT(12);
+    description.frame = _rect;
+    description.text = descData;
+    description.font = ME_FONT(12);
     
     self.clipsToBounds = YES;
 }

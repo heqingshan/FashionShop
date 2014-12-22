@@ -114,7 +114,7 @@ void uncaughtExceptionHandler(NSException *exception)
         //删除_startController
         [_startController.view removeFromSuperview];
         
-        //先判断是否是第一次使用(V2.5.1版本去除引导图)
+        //先判断是否是第一次使用(V2.5.2版本去除引导图)
         NSString *content = @"hasLaunched";//[self readFromFile:@"hasLaunched"];
         if (!content || ![content isEqualToString:@"hasLaunched"]) {
             SplashViewController *SVCtrl = [[SplashViewController alloc] init];

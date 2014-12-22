@@ -121,7 +121,12 @@ static FSModelManager *_modelManager;
         request.routeResourcePath = RK_REQUEST_CONFIG_TAG_ALL;
         [request send:[FSTag class] withRequest:request completeCallBack:^(FSEntityBase *req) {
             if (req.isSuccess) {
-                theApp.allTags = req.responseData;
+                NSMutableArray *array = [NSMutableArray array];
+                int len = [req.responseData count];
+                for (int i = len-1; i >= 0; i--) {
+                    [array addObject:[req.responseData objectAtIndex:i]];
+                }
+                theApp.allTags = array;
                 NSLog(@"tag/all load success!");
             }
             else{

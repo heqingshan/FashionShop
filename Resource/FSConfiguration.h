@@ -21,7 +21,7 @@
  5、检查是否使用了正确的证书
  */
 
-#define REST_API_CLIENT_VERSION @"2.5.1"
+#define REST_API_CLIENT_VERSION @"2.5.2"
 
 //正式库
 #define REST_API_URL   @"http://iapi.intime.com.cn/api"

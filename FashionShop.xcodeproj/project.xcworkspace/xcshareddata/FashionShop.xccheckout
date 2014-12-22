@@ -10,31 +10,31 @@
 	<string>FashionShop</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>890A2C08-7CC6-46C8-A0FB-0511EF8D7EC3</key>
-		<string>https://github.com/victorgong/yt002.git</string>
+		<key>85973C049512BAC67A301D18BC0A1464013CED23</key>
+		<string>https://github.com/heqingshan/FashionShop.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>FashionShop/FashionShop.xcodeproj/project.xcworkspace</string>
+	<string>FashionShop.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>890A2C08-7CC6-46C8-A0FB-0511EF8D7EC3</key>
-		<string>../../..</string>
+		<key>85973C049512BAC67A301D18BC0A1464013CED23</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/victorgong/yt002.git</string>
+	<string>https://github.com/heqingshan/FashionShop.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>890A2C08-7CC6-46C8-A0FB-0511EF8D7EC3</string>
+	<string>85973C049512BAC67A301D18BC0A1464013CED23</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>890A2C08-7CC6-46C8-A0FB-0511EF8D7EC3</string>
+			<string>85973C049512BAC67A301D18BC0A1464013CED23</string>
 			<key>IDESourceControlWCCName</key>
-			<string>yt002</string>
+			<string>FashionShop</string>
 		</dict>
 	</array>
 </dict>

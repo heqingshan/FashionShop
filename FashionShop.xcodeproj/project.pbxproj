@@ -4309,8 +4309,8 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Qingshan He (Y2F7JPML23)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Qingshan He (Y2F7JPML23)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -4321,9 +4321,9 @@
 				IBSC_ERRORS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "E4D035F9-7928-4B6F-BDDF-F1188C0AF092";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E4D035F9-7928-4B6F-BDDF-F1188C0AF092";
-				SDKROOT = iphoneos;
+				PROVISIONING_PROFILE = "36af04ec-69ab-44c9-b36f-cf0088f8258a";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "36af04ec-69ab-44c9-b36f-cf0088f8258a";
+				SDKROOT = iphoneos6.1;
 				VALIDATE_PRODUCT = NO;
 			};
 			name = Archive;
@@ -4336,8 +4336,8 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Qingshan He (Y2F7JPML23)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Qingshan He (Y2F7JPML23)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Library/RestKit/Tests/Vendor/OCHamcrest\"",
@@ -4356,9 +4356,9 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 					"$(SRCROOT)/Library/flurry",
-					/Users/HeQingshan/Desktop/yt002/FashionShop/Library/flurry,
-					/Users/HeQingshan/Desktop/yt002/FashionShop/Library/qqweixin,
-					/Users/HeQingshan/Desktop/yt002/FashionShop/Library/alipay,
+					"$(SRCROOT)/Library/flurry",
+					"$(SRCROOT)/Library/qqweixin",
+					"$(SRCROOT)/Library/alipay",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
@@ -4369,10 +4369,10 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = FashionShop;
-				PROVISIONING_PROFILE = "7BE707BA-BFE7-4602-96D6-F7CE3A292490";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7BE707BA-BFE7-4602-96D6-F7CE3A292490";
+				PROVISIONING_PROFILE = "36af04ec-69ab-44c9-b36f-cf0088f8258a";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "36af04ec-69ab-44c9-b36f-cf0088f8258a";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
-				SDKROOT = iphoneos6.0;
+				SDKROOT = iphoneos6.1;
 				SKIP_INSTALL = NO;
 				STRIP_STYLE = "non-global";
 				USER_HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"/** \"$(BUILT_PRODUCTS_DIR)/../../Headers/RestKit\"";
@@ -4388,8 +4388,8 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Qingshan He (Y2F7JPML23)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Qingshan He (Y2F7JPML23)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -4407,9 +4407,9 @@
 				IBSC_ERRORS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = NO;
-				PROVISIONING_PROFILE = "E4D035F9-7928-4B6F-BDDF-F1188C0AF092";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E4D035F9-7928-4B6F-BDDF-F1188C0AF092";
-				SDKROOT = iphoneos;
+				PROVISIONING_PROFILE = "36af04ec-69ab-44c9-b36f-cf0088f8258a";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "36af04ec-69ab-44c9-b36f-cf0088f8258a";
+				SDKROOT = iphoneos6.1;
 			};
 			name = Debug;
 		};
@@ -4421,8 +4421,8 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Qingshan He (Y2F7JPML23)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Qingshan He (Y2F7JPML23)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -4433,9 +4433,9 @@
 				IBSC_ERRORS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "E4D035F9-7928-4B6F-BDDF-F1188C0AF092";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E4D035F9-7928-4B6F-BDDF-F1188C0AF092";
-				SDKROOT = iphoneos;
+				PROVISIONING_PROFILE = "36af04ec-69ab-44c9-b36f-cf0088f8258a";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "36af04ec-69ab-44c9-b36f-cf0088f8258a";
+				SDKROOT = iphoneos6.1;
 				VALIDATE_PRODUCT = NO;
 			};
 			name = Release;
@@ -4448,8 +4448,8 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Qingshan He (Y2F7JPML23)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Qingshan He (Y2F7JPML23)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Library/RestKit/Tests/Vendor/OCHamcrest\"",
@@ -4472,9 +4472,9 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 					"$(SRCROOT)/Library/flurry",
-					/Users/HeQingshan/Desktop/yt002/FashionShop/Library/flurry,
-					/Users/HeQingshan/Desktop/yt002/FashionShop/Library/qqweixin,
-					/Users/HeQingshan/Desktop/yt002/FashionShop/Library/alipay,
+					"$(SRCROOT)/Library/flurry",
+					"$(SRCROOT)/Library/qqweixin",
+					"$(SRCROOT)/Library/alipay",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
@@ -4485,10 +4485,10 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = FashionShop;
-				PROVISIONING_PROFILE = "7BE707BA-BFE7-4602-96D6-F7CE3A292490";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7BE707BA-BFE7-4602-96D6-F7CE3A292490";
+				PROVISIONING_PROFILE = "36af04ec-69ab-44c9-b36f-cf0088f8258a";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "36af04ec-69ab-44c9-b36f-cf0088f8258a";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
-				SDKROOT = iphoneos6.0;
+				SDKROOT = iphoneos6.1;
 				SKIP_INSTALL = NO;
 				STRIP_STYLE = "non-global";
 				USER_HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"/** \"$(BUILT_PRODUCTS_DIR)/../../Headers/RestKit\"";
@@ -4504,8 +4504,8 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Qingshan He (Y2F7JPML23)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Qingshan He (Y2F7JPML23)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Library/RestKit/Tests/Vendor/OCHamcrest\"",
@@ -4524,9 +4524,9 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 					"$(SRCROOT)/Library/flurry",
-					/Users/HeQingshan/Desktop/yt002/FashionShop/Library/flurry,
-					/Users/HeQingshan/Desktop/yt002/FashionShop/Library/qqweixin,
-					/Users/HeQingshan/Desktop/yt002/FashionShop/Library/alipay,
+					"$(SRCROOT)/Library/flurry",
+					"$(SRCROOT)/Library/qqweixin",
+					"$(SRCROOT)/Library/alipay",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
@@ -4537,10 +4537,10 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = FashionShop;
-				PROVISIONING_PROFILE = "7BE707BA-BFE7-4602-96D6-F7CE3A292490";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7BE707BA-BFE7-4602-96D6-F7CE3A292490";
+				PROVISIONING_PROFILE = "36af04ec-69ab-44c9-b36f-cf0088f8258a";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "36af04ec-69ab-44c9-b36f-cf0088f8258a";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
-				SDKROOT = iphoneos6.0;
+				SDKROOT = iphoneos6.1;
 				SKIP_INSTALL = NO;
 				STRIP_STYLE = "non-global";
 				USER_HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"/** \"$(BUILT_PRODUCTS_DIR)/../../Headers/RestKit\"";

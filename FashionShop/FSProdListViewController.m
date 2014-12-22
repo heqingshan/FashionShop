@@ -312,7 +312,12 @@
             if (_tags.count>0) {
                 return;
             }
-            theApp.allTags = resp.responseData;
+            NSMutableArray *array = [NSMutableArray array];
+            int len = [resp.responseData count];
+            for (int i = len-1; i >= 0; i--) {
+                [array addObject:[resp.responseData objectAtIndex:i]];
+            }
+            theApp.allTags = array;
             _tags = theApp.allTags;
             [blockSelf endPrepareData];
         }];
